@@ -23,7 +23,6 @@ def showScreen():
     iterate()
 
     glColor3f(0.0, 1.0, 1.0)
-    
     drawPixel(250, 250)
 
     glutSwapBuffers()
@@ -32,7 +31,7 @@ glutInit()
 glutInitDisplayMode(GLUT_RGBA)
 glutInitWindowSize(500, 500)
 glutInitWindowPosition(0, 0)
-wind = glutCreateWindow(b"Task 1")
+wind = glutCreateWindow(b"Archery Championship")
 glutDisplayFunc(showScreen)
 
 glutMainLoop()

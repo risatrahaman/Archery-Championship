@@ -95,3 +95,11 @@ def drawLine0(x0, y0, x1, y1, zone):
             x += 1
             y += 1 
         draw8WayLine(x, y, zone)
+
+
+def drawLine(x0, y0, x1, y1):
+    zone = findZone(x0, y0, x1, y1)
+    x0, y0 = convertZoneTo0(x0, y0, zone)
+    x1, y1 = convertZoneTo0(x1, y1, zone)
+
+    drawLine0(x0, y0, x1, y1, zone)

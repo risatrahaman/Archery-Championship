@@ -14,11 +14,11 @@ bowLength = 80
 
 def Bow(posX, posY):
     
-    # Handle
+    # String
     glColor3f(1.0, 1.0, 1.0)
     drawLine(posX, posY, posX, posY - bowLength)
     
-    # String
+    # Handle
     glColor3f(0.6, 0.3, 0.0)
     radius = bowLength/2
     drawHalfCircle(posX, posY - radius, radius)

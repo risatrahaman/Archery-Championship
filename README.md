@@ -17,4 +17,11 @@ Any input outside the range results in a missed shot.
 Finally, after hitting the target, the score will be displayed on the score board.
 
 **Output:**
+
+
+
+
+
+
+
 ![archery](https://github.com/risatrahaman/Archery-Championship/assets/91422611/b1a06312-5e34-4d17-92a6-bdcfd51e28d4)
